@@ -20,4 +20,4 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://03chrisk:$HF@huggingface.co/spaces/03chrisk/pleasework main
+        run: git push --force https://03chrisk:$HF@huggingface.co/spaces/03chrisk/pleasework test:main
